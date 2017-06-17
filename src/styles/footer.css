@@ -1,0 +1,32 @@
+.footer {
+	height: 235px;
+	background-color: #101010;
+	width: 100%;
+}
+
+.footerContainer {
+	height: 100%;
+	margin: 0 auto;
+	width: 70%;
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footerInformations {
+	text-align: center;
+}
+
+.footerInformations h2 {
+	color: #fff;
+	margin-top: 50px;
+	font-weight: 100;
+}
+
+.footerInformations hr {
+	border-top: 1px solid #009989;
+}
+
+.footerInformations p {
+	color: #4a4a4a;
+}

@@ -1,0 +1,36 @@
+.portfolioContainer {
+	width: 100%;
+	display: flex;
+}
+
+.portfolioContainer div.singleElement:nth-child(1) {
+ 	width: 14.2%;
+ 	padding-top: 14.3%;
+}
+
+.portfolioContainer .singleElement {
+ 	width: 14.3%;
+ 	padding-top: 14.3%;
+}
+
+.portfolioContainer .nr1 {	background-image: url("/images/portfolio1.png");}
+.portfolioContainer .nr2 {	background-image: url("/images/portfolio2.png");}
+.portfolioContainer .nr3 {	background-image: url("/images/portfolio3.png");}
+.portfolioContainer .nr4 {	background-image: url("/images/portfolio4.png");}
+.portfolioContainer .nr5 {	background-image: url("/images/portfolio5.png");}
+.portfolioContainer .nr6 {	background-image: url("/images/portfolio6.png");}
+.portfolioContainer .nr7 {	background-image: url("/images/portfolio7.png");}
+.portfolioContainer .nr8 {	background-image: url("/images/portfolio8.png");}
+.portfolioContainer .nr9 {	background-image: url("/images/portfolio9.png");}
+.portfolioContainer .nr10 {	background-image: url("/images/portfolio10.png");}
+.portfolioContainer .nr11 {	background-image: url("/images/portfolio11.png");}
+.portfolioContainer .nr12 {	background-image: url("/images/portfolio12.png");}
+.portfolioContainer .nr13 {	background-image: url("/images/portfolio13.png");}
+.portfolioContainer .nr14 {	background-image: url("/images/portfolio14.png");}
+.portfolioContainer .nr15 {	background-image: url("/images/portfolio15.png");}
+.portfolioContainer .nr16 {	background-image: url("/images/portfolio16.png");}
+.portfolioContainer .nr17 {	background-image: url("/images/portfolio17.png");}
+.portfolioContainer .nr18 {	background-image: url("/images/portfolio18.png");}
+.portfolioContainer .nr19 {	background-image: url("/images/portfolio19.png");}
+.portfolioContainer .nr20 {	background-image: url("/images/portfolio20.png");}
+.portfolioContainer .nr21 {	background-image: url("/images/portfolio21.png");}

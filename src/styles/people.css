@@ -1,0 +1,119 @@
+.people {
+	height: 1300px;
+	padding: 50px 0;
+}
+.people .singlePerson {
+	width: 80%;
+	margin: 0 auto;
+	height: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.people .singlePerson .foto {
+	width: 50%;
+	height: 300px;
+}
+
+.people .singlePerson .frame {
+	height: 260px;
+	box-sizing: border-box;
+}
+
+.people .singlePerson .frame.onLeft {
+	margin: 20px 0 20px 20px;
+	border: 3px solid #fff;
+	border-right: 0px;
+}
+
+.people .singlePerson .frame.onRight {
+	margin: 20px 20px 20px 0;
+	border: 3px solid #fff;
+	border-left: 0px;
+}
+
+.people .singlePerson .description {
+	position: relative;
+	width: 50%;
+	height: 260px;
+	text-align: center;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.people .singlePerson .description.onLeft {
+	margin: 20px 0 20px 20px;
+	border: 3px solid #000;
+	border-right: 0px;
+}
+
+.people .singlePerson .description.onRight {
+	margin: 20px 20px 20px 0;
+	border: 3px solid #000;
+	border-left: 0px;
+}
+
+.people .singlePerson .description.onRight:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	border-right-color: #fff;
+	border-width: 32px;
+	margin-top: -32px;
+}
+
+.people .singlePerson .description.onLeft:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	border-left-color: #fff;
+	border-width: 32px;
+	margin-top: -32px;
+}
+
+.people .singlePerson .description h2 {
+	letter-spacing: 2px;
+}
+
+.people .singlePerson .description h5 {
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.people .singlePerson .description hr {
+	border-color: #f34739;
+	border-width: 2px;
+	width: 180px;
+}
+
+.people .singlePerson .description p {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.adrianna {
+	background: url(/images/Adrianna.png);
+}
+
+.olivia {
+	background: url(/images/Olivia.png);
+}
+
+.thomas {
+	background: url(/images/Thomas.png);
+}
+
+.taylor {
+	background: url(/images/Tylor.png);
+}

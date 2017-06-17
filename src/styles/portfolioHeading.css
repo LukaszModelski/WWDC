@@ -1,0 +1,45 @@
+.portfolioHeading {
+	display: flex;
+	align-items: center;
+	height: 300px;
+	background: url(/images/our_team.png);
+	background-size: cover;
+}
+
+.portfolioHeading .frame {
+	display: flex;
+	align-items: center;
+	height: 200px;
+	border: 3px solid white;
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.portfolioHeading .textWrap {
+	margin: 0 auto;
+}
+
+
+.portfolioHeading .hrBox {
+	display: flex;
+	align-items: center;
+}
+
+.portfolioHeading .hrBox hr {
+	width: 10%;
+}
+
+.portfolioHeading .hrBox p {
+	font-size: 18px;
+	margin: 0;
+	color: #fff;
+}
+
+.portfolioHeading h2 {
+	color: #fff;
+	margin: 0;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 4px;
+}

@@ -1,0 +1,79 @@
+/* CHECK US */
+
+.checkUs {
+	height: 600px;
+	background: url('../images/check-us.png');
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.checkUs > div:first-child {
+	text-align: center;
+	margin: 0 0 100px 0;
+}
+
+.checkUs .hrBox {
+	display: flex;
+	align-items: center;
+}
+
+.checkUs .hrBox hr {
+	width: 25%;
+}
+
+.checkUs .hrBox .needHelp {
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin: 0;
+	width: 50%;
+}
+
+.checkUs .designers {
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 7px;
+}
+
+.checkUs a {
+	font-weight: 400;
+	padding: 10px;
+	margin: 20px auto 0 auto;
+	border: 2px solid #fff;
+	border-radius: 22px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: block;
+	max-width: 190px;
+	transition: background 0.2s, color 0.2s, font-weight 0.2s;
+}
+
+.checkUs a:hover {
+	background: #fff;
+	color: #000;
+	font-weight: 600;
+}
+
+.checkUs .arrows {
+	position: absolute;
+	bottom: 30px;
+	font-size: 25px;
+	font-weight: 200;
+	cursor: pointer;
+}
+
+[class^=arr-]{
+  border:       solid currentColor;
+  border-width: 0 1px 1px 0;
+  display:      inline-block;
+  padding:      .20em;
+}
+
+.arr-down  {
+	transform:rotate(45deg); 
+	display: block; margin: 4px 0;
+}

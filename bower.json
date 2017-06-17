@@ -1,0 +1,17 @@
+{
+  "name": "czapa-template",
+  "description": "czapa template",
+  "main": "gulpfile.js",
+  "authors": [
+    "Czapa"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

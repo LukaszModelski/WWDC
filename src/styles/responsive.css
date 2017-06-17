@@ -1,0 +1,37 @@
+/* nav bar */
+
+@media only screen and (max-width: 500px) {
+
+	nav .whiteWrapper {
+		width: 80%;
+	}
+
+	nav .whiteContent div {
+		display: none;
+	}
+
+	nav .blackWrapper {
+		background: #fff;
+    	width: 20%;
+    }
+
+    nav .blackContent {
+   		color: #000;
+	}
+
+    nav .blackContent p {
+    	display: none;
+    }
+}
+
+/* charts */
+
+
+
+@media only screen and (max-width: 500px) {
+
+	.charts canvas {
+    	margin: 0 ;
+	}
+
+}

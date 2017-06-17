@@ -1,0 +1,108 @@
+.brands {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.brandsContainer {
+	width: 100%;
+	display: flex;
+}
+
+.brandsContainer .singleElement {
+ 	width: 13%;
+ 	padding-top: 13%;
+}
+
+.brandsContainer .emptyElementSide {
+ 	width: 4.5%;
+ 	padding-top: 13%;
+}
+
+div.brandsContainer:first-child .emptyElementSide,
+div.brandsContainer:last-child .emptyElementSide {
+ 	width: 4.5%;
+ 	padding-top: 5%;
+}
+
+.brandsContainer .emptyElement {
+ 	width: 13%;
+ 	padding-top: 5%;
+}
+
+.brandsContainer div {
+	background: no-repeat center;
+}
+
+
+/* FIRST ROW */
+
+div.brandsContainer:first-child .emptyElement {
+	border-right: 1px solid rgba(60,64,66,0.2);
+}
+
+div.brandsContainer:first-child .emptyElement:nth-child(8) {
+	border-right: 0px solid rgba(60,64,66,0.2);
+}
+
+/* MIDDLE ROWS */
+
+div.brandsContainer:nth-child(n+2):nth-child(-n+5) .emptyElementSide {
+	border-top: 1px solid rgba(60,64,66,0.2);
+}
+
+div.brandsContainer:nth-child(n+2):nth-child(-n+5) .singleElement {
+	border-right: 1px solid rgba(60,64,66,0.2);
+	border-top: 1px solid rgba(60,64,66,0.2);
+}
+
+div.brandsContainer:nth-child(n+2):nth-child(-n+5) .singleElement:nth-child(8) {
+	border-right: 0px solid rgba(60,64,66,0.2);
+}
+
+/* LAST ROW */
+
+div.brandsContainer:last-child .emptyElement {
+	border-right: 1px solid rgba(60,64,66,0.2);
+	border-top: 1px solid rgba(60,64,66,0.2);
+}
+
+div.brandsContainer:last-child .emptyElementSide {
+	border-top: 1px solid rgba(60,64,66,0.2);
+}
+
+
+div.brandsContainer:last-child .emptyElement:nth-child(8) {
+	border-right: 0px solid rgba(60,64,66,0.2);
+}
+
+
+/* IMAGES */
+
+.brandsContainer .nr1 { background-image: url(/images/apple.png); }
+.brandsContainer .nr2 { background-image: url(/images/microsoft.png); }
+.brandsContainer .nr3 { background-image: url(/images/vw.png); }
+.brandsContainer .nr4 { background-image: url(/images/ubuntu.png); }
+.brandsContainer .nr5 { background-image: url(/images/playstation.png); }
+.brandsContainer .nr6 { background-image: url(/images/HP.png); }
+.brandsContainer .nr7 { background-image: url(/images/LG.png); }
+.brandsContainer .nr8 { background-image: url(/images/android.png); }
+.brandsContainer .nr9 { background-image: url(/images/Shell.png); }
+.brandsContainer .nr10 { background-image: url(/images/Dell.png); }
+.brandsContainer .nr11 { background-image: url(/images/EA.png); }
+.brandsContainer .nr12 { background-image: url(/images/Intel.png); }
+.brandsContainer .nr13 { background-image: url(/images/HTML5.png); }
+.brandsContainer .nr14 { background-image: url(/images/AVG.png); }
+.brandsContainer .nr15 { background-image: url(/images/NIKE.png); }
+.brandsContainer .nr16 { background-image: url(/images/AMD.png); }
+.brandsContainer .nr17 { background-image: url(/images/KFC.png); }
+.brandsContainer .nr18 { background-image: url(/images/Nivea.png); }
+.brandsContainer .nr19 { background-image: url(/images/HF2.png); }
+.brandsContainer .nr20 { background-image: url(/images/Insta.png); }
+.brandsContainer .nr21 { background-image: url(/images/Cooler.png); }
+.brandsContainer .nr22 { background-image: url(/images/bosh.png); }
+.brandsContainer .nr23 { background-image: url(/images/teamspeak.png); }
+.brandsContainer .nr24 { background-image: url(/images/allegro.png); }
+.brandsContainer .nr25 { background-image: url(/images/ups.png); }
+.brandsContainer .nr26 { background-image: url(/images/ww.png); }
+.brandsContainer .nr27 { background-image: url(/images/m.png); }
+.brandsContainer .nr28 { background-image: url(/images/mit.png); }
