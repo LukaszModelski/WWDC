@@ -2,36 +2,303 @@
 
 @media only screen and (max-width: 500px) {
 
-	nav .whiteWrapper {
-		width: 80%;
+	nav.header .blackBox {
+		background: #fafafc;
+		text-align: right;
+		justify-content: flex-end;
 	}
 
-	nav .whiteContent div {
+	nav.header .whiteBox div {
 		display: none;
 	}
 
-	nav .blackWrapper {
-		background: #fff;
-    	width: 20%;
-    }
-
-    nav .blackContent {
-   		color: #000;
+	nav.header .blackBox p {
+		display: none;
 	}
 
-    nav .blackContent p {
-    	display: none;
-    }
+	nav.header .blackBox i {
+		color: #000;
+		font-size: 20px;
+		padding: 0 25px;
+	}
+
+}
+
+/* check us */
+
+@media only screen and (max-width: 525px) {
+
+	.checkUs {
+		height: 400px;
+	}
+
+	.checkUs .designers {
+	    font-size: 35px;
+	    letter-spacing: 6px;
+	}
+
+	.checkUs .hrBox hr {
+    	width: 20%;
+	}
+
+	.checkUs > div:first-child {
+	    margin: 0 20px 50px 20px;
+	}
+
+	.checkUs a {
+		margin: 30px auto 0 auto;
+	}	
+}
+
+@media only screen and (max-width: 400px) {
+
+	.checkUs .designers {
+	    font-size: 27px;
+	    letter-spacing: 5px;
+	}
+
+	.checkUs .hrBox hr {
+    	width: 15%;
+	}
+
+	.checkUs .hrBox .needHelp {
+	    width: 70%;
+	}
+
 }
 
 /* charts */
 
+@media only screen and (max-width: 1109px) {
+	
+	.charts div.flexElement:last-child {
+    	margin: 61px 0 0 0;
+	}
+}
 
+@media only screen and (max-width: 739px) {
+	
+	.charts div.flexElement:nth-child(2) {
+    	margin: 61px 0 0 0;
+	}
 
-@media only screen and (max-width: 500px) {
+}
+
+@media only screen and (max-width: 450px) {
+
+	.chartWrap {
+	    display: flex;
+	    justify-content: center;
+	}
 
 	.charts canvas {
     	margin: 0 ;
+	}
+}
+
+/* our team header */
+
+@media only screen and (max-width: 700px) {
+	
+	.ourTeam {
+   		height: 200px;
+	}
+
+	.ourTeam .frame  {
+	    height: 160px;
+	    width: 100%;
+	    margin: 0 20px;
+	}
+
+}
+
+/* our team */
+
+@media only screen and (max-width: 1000px) {
+	
+	.people {
+		height: 2130px;
+		padding: 0 0 50px 0;
+	}
+
+	.people .singlePerson {
+		height: 520px;
+	}
+
+	.people div.singlePerson:nth-child(odd) {
+		flex-wrap: wrap-reverse;
+	}
+
+	.people div.singlePerson:nth-child(even) {
+		flex-wrap: wrap;
+	}
+
+	.people .singlePerson .foto,
+	.people .singlePerson .description {
+		width: 100%;
+	}
+
+	.people .singlePerson .foto {
+	    height: 240px;
+	}
+
+	.people .singlePerson .description {
+		height: 240px;
+	}
+
+	.people .singlePerson .frame {
+	    height: 220px;
+	    box-sizing: border-box;
+	}
+
+	.people .singlePerson .description.onRight {
+	    margin: 40px 20px 0 20px;
+	    border: 3px solid #000;
+	    border-bottom: 0px;
+	}
+
+	.people .singlePerson .description.onRight:after,
+	.people .singlePerson .description.onLeft:after {
+	    top: 269px;
+		left: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		border-color: rgba(255, 255, 255, 0);
+		border-top-color: #fcfcfa;
+		border-width: 32px;
+		margin-left: -32px;
+	}
+
+	.people .singlePerson .description.onLeft {
+	    margin: 40px 20px 0 20px;
+	    border: 3px solid #000;
+	    border-bottom: 0px;
+	}
+
+	.people .singlePerson .frame.onLeft {
+	    margin: 0 20px;
+	    border: 3px solid #fff;
+	    border-top: 0px;
+	}
+
+	.people .singlePerson .frame.onRight {
+	    margin: 0 20px;
+	    border: 3px solid #fff;
+	    border-top: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+
+	.people .singlePerson {
+		width: 100%;
+	}
+
+}
+
+/* portfolio header */
+
+@media only screen and (max-width: 700px) {
+	
+	.portfolioHeading {
+   		height: 200px;
+	}
+
+	.portfolioHeading .frame  {
+	    height: 160px;
+	    width: 100%;
+	    margin: 0 20px;
+	}
+
+}
+
+/* portfolio */
+
+@media only screen and (max-width: 1200px) {
+
+	.portfolioContainer .singleElement.nr6,
+	.portfolioContainer .singleElement.nr7,
+	.portfolioContainer .singleElement.nr13,
+	.portfolioContainer .singleElement.nr14,
+	.portfolioContainer .singleElement.nr20,
+	.portfolioContainer .singleElement.nr21 {
+		display: none;
+	}
+
+	.portfolioContainer .singleElement {
+	 	width: 20%;
+	 	padding-top: 20%;
+	}
+
+	.portfolioContainer div.singleElement:nth-child(1) {
+	 	width: 20%;
+	 	padding-top: 20%;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.portfolioContainer .singleElement.nr5,
+	.portfolioContainer .singleElement.nr12,
+	.portfolioContainer .singleElement.nr19 {
+		display: none;
+	}
+
+	.portfolioContainer .singleElement {
+	 	width: 25%;
+	 	padding-top: 25%;
+	}
+
+	.portfolioContainer div.singleElement:nth-child(1) {
+	 	width: 25%;
+	 	padding-top: 25%;
+	}
+
+}
+
+@media only screen and (max-width: 560px) {
+
+	.onlyMobile {
+		display: flex;
+	}
+	
+	.portfolioContainer .singleElement.nr4,
+	.portfolioContainer .singleElement.nr11,
+	.portfolioContainer .singleElement.nr18 {
+		display: none;
+	}
+
+	.portfolioContainer .singleElement {
+	 	width: 33%;
+	 	padding-top: 33%;
+	}
+
+	.portfolioContainer div.singleElement:nth-child(1) {
+	 	width: 34%;
+	 	padding-top: 34%;
+	}
+
+
+
+}
+
+/* brands header */
+
+@media only screen and (max-width: 700px) {
+	
+	.brandsHeading {
+   		height: 200px;
+	}
+
+	.brandsHeading .frame  {
+	    height: 160px;
+	    width: 100%;
+	    margin: 0 20px;
 	}
 
 }

@@ -4,10 +4,19 @@
 }
 .people .singlePerson {
 	width: 80%;
+	max-width: 1200px;
 	margin: 0 auto;
 	height: 300px;
 	display: flex;
 	align-items: center;
+}
+
+.people div.singlePerson:nth-child(odd) {
+	flex-wrap: wrap-reverse;
+}
+
+.people div.singlePerson:nth-child(even) {
+	flex-wrap: wrap;
 }
 
 .people .singlePerson .foto {
@@ -44,13 +53,13 @@
 }
 
 .people .singlePerson .description.onLeft {
-	margin: 20px 0 20px 20px;
+	margin: 20px 0 20px 0px;
 	border: 3px solid #000;
 	border-right: 0px;
 }
 
 .people .singlePerson .description.onRight {
-	margin: 20px 20px 20px 0;
+	margin: 20px 0px 20px 0;
 	border: 3px solid #000;
 	border-left: 0px;
 }
@@ -104,16 +113,20 @@
 
 .adrianna {
 	background: url(/images/Adrianna.png);
+	background-size: cover;
 }
 
 .olivia {
 	background: url(/images/Olivia.png);
+	background-size: cover;		
 }
 
 .thomas {
 	background: url(/images/Thomas.png);
+	background-size: cover;
 }
 
 .taylor {
 	background: url(/images/Tylor.png);
+	background-size: cover;
 }
