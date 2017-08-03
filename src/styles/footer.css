@@ -33,3 +33,16 @@
 .footerInformations p {
 	color: #4a4a4a;
 }
+
+.copyrights {
+	height: 60px;
+	background-color: #0e0e0d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.copyrights p {
+	margin: 0;
+	font-size: 12px;
+}

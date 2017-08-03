@@ -69,20 +69,37 @@
 
 /* charts */
 
-@media only screen and (max-width: 1109px) {
+@media only screen and (max-width: 1199px) {
 	
 	.charts div.flexElement:last-child {
     	margin: 61px 0 0 0;
 	}
 }
 
-@media only screen and (max-width: 739px) {
+@media only screen and (max-width: 799px) {
 	
 	.charts div.flexElement:nth-child(2) {
     	margin: 61px 0 0 0;
 	}
 
 }
+
+@media only screen and (max-width: 450px) {
+
+	.chartWrap {
+	    display: flex;
+	    justify-content: center;
+	}
+
+	.charts canvas {
+    	margin: 0 ;
+	}
+
+	.charts canvas {
+		left: 0;
+	}
+}
+
 
 @media only screen and (max-width: 450px) {
 
