@@ -7,6 +7,12 @@
  	width: 14.3%;
  	padding-top: 14.3%;
  	background-size: cover;
+ 	filter: grayscale(100%);
+ 	transition: filter 0.5s;
+}
+
+.portfolioContainer .singleElement:hover {
+ 	filter: grayscale(0%);
 }
 
 .portfolioContainer div.singleElement:nth-child(1) {

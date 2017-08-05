@@ -1,9 +1,47 @@
 /* CHECK US */
 
 .checkUs {
-	height: 600px;
 	background: url('../images/check-us.png');
 	background-size: cover;
+}
+
+.placeholder {
+	height: 80px;
+}
+
+.dropDownMenuContainer {
+	display: none;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,1);
+	border-top: 1px solid rgba(255,255,255,0.5);
+	/* border-bottom: 1px solid rgba(255,255,255,0.5); */
+}
+
+.dropDownMenuContainer ul.dropDownMenu {
+	display: flex;
+	padding-left: 0;
+	max-width: 1200px;
+	color: #fff;
+	list-style-type: none;
+	justify-content: space-around;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 300;
+}
+
+.dropDownMenuContainer ul.dropDownMenu li {
+	height: 50px;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.dropDownMenuContainer ul.dropDownMenu li:hover {
+	font-weight: 400;
+}
+
+.checkUsContent {
+	height: 520px;
 	color: #fff;
 	display: flex;
 	align-items: center;
@@ -11,21 +49,21 @@
 	position: relative;
 }
 
-.checkUs > div:first-child {
+.checkUsContent > div:first-child {
 	text-align: center;
 	margin: 0 20px 100px 20px;
 }
 
-.checkUs .hrBox {
+.checkUsContent .hrBox {
 	display: flex;
 	align-items: center;
 }
 
-.checkUs .hrBox hr {
+.checkUsContent .hrBox hr {
 	width: 25%;
 }
 
-.checkUs .hrBox .needHelp {
+.checkUsContent .hrBox .needHelp {
 	font-size: 22px;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -33,13 +71,14 @@
 	width: 50%;
 }
 
-.checkUs .designers {
+.checkUsContent .designers {
 	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: 7px;
 }
 
-.checkUs a {
+.checkUsContent a {
+	cursor: pointer;
 	font-weight: 400;
 	padding: 10px;
 	margin: 20px auto 0 auto;
@@ -52,13 +91,13 @@
 	transition: background 0.2s, color 0.2s, font-weight 0.2s;
 }
 
-.checkUs a:hover {
+.checkUsContent a:hover {
 	background: #fff;
 	color: #000;
 	font-weight: 600;
 }
 
-.checkUs .arrows {
+.checkUsContent .arrows {
 	position: absolute;
 	bottom: 30px;
 	font-size: 25px;
@@ -68,7 +107,6 @@
 
 [class^=arr-]{
   border:       solid currentColor;
-  border-width: 0 1px 1px 0;
   display:      inline-block;
   padding:      .20em;
 }
@@ -76,4 +114,11 @@
 .arr-down  {
 	transform:rotate(45deg); 
 	display: block; margin: 4px 0;
+	border-width: 0 1px 1px 0;
 }
+
+.arrows:hover .arr-down {
+	border-width: 0 2px 2px 0;
+}
+
+
