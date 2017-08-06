@@ -340,7 +340,7 @@
 		display: none;
 	}
 
-	.brandsContainer .singleElement {
+	.brandsContainer .singleElementBorder {
 	 	width: 18%;
 	 	padding-top: 18%;
 	}
@@ -363,7 +363,7 @@
 
 	div.brandsContainer:first-child .emptyElement:nth-child(6),
 	div.brandsContainer:last-child .emptyElement:nth-child(6),
-	div.brandsContainer:nth-child(n+2):nth-child(-n+5) .singleElement:nth-child(6) {
+	div.brandsContainer:nth-child(n+2):nth-child(-n+5) .singleElementBorder:nth-child(6) {
 		border-right: 0px solid rgba(60,64,66,0.2);
 	}
 
@@ -380,7 +380,7 @@
 		display: none;
 	}
 
-	.brandsContainer .singleElement {
+	.brandsContainer .singleElementBorder {
 	 	width: 22.5%;
 	 	padding-top: 22.5%;
 	}
@@ -403,7 +403,7 @@
 
 	div.brandsContainer:first-child .emptyElement:nth-child(5),
 	div.brandsContainer:last-child .emptyElement:nth-child(5),
-	div.brandsContainer:nth-child(n+2):nth-child(-n+5) .singleElement:nth-child(5) {
+	div.brandsContainer:nth-child(n+2):nth-child(-n+5) .singleElementBorder:nth-child(5) {
 		border-right: 0px solid rgba(60,64,66,0.2);
 	}
 
@@ -420,7 +420,7 @@
 		display: none;
 	}
 
-	.brandsContainer .singleElement {
+	.brandsContainer .singleElementBorder {
 	 	width: 32%;
 	 	padding-top: 32%;
 	}
@@ -443,7 +443,7 @@
 
 	div.brandsContainer:first-child .emptyElement:nth-child(4),
 	div.brandsContainer:last-child .emptyElement:nth-child(4),
-	div.brandsContainer:nth-child(n+2):nth-child(-n+5) .singleElement:nth-child(4) {
+	div.brandsContainer:nth-child(n+2):nth-child(-n+5) .singleElementBorder:nth-child(4) {
 		border-right: 0px solid rgba(60,64,66,0.2);
 	}
 

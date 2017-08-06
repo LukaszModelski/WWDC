@@ -4,6 +4,7 @@
 }
 
 .portfolioContainer .singleElement {
+	cursor: pointer;
  	width: 14.3%;
  	padding-top: 14.3%;
  	background-size: cover;
