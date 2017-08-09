@@ -40,7 +40,7 @@ gulp.task('jsServer', function() {
 
 // --------- wrapped together --------- //
 
-gulp.task('server', ['browserSync','htmlServer','stylesServer','jsServer'], function() {
+gulp.task('serve', ['browserSync','htmlServer','stylesServer','jsServer'], function() {
 	gulp.watch('src/styles/*.css',['stylesServer']);
 	gulp.watch('src/*.+(html|ico)',['htmlServer']);
 	gulp.watch('src/scripts/*.js',['jsServer']);
