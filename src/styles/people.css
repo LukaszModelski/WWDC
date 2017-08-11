@@ -112,21 +112,21 @@
 }
 
 .adrianna {
-	background: url(/images/Adrianna.png);
+	background: url(../images/Adrianna.png);
 	background-size: cover;
 }
 
 .olivia {
-	background: url(/images/Olivia.png);
+	background: url(../images/Olivia.png);
 	background-size: cover;		
 }
 
 .thomas {
-	background: url(/images/Thomas.png);
+	background: url(../images/Thomas.png);
 	background-size: cover;
 }
 
 .taylor {
-	background: url(/images/Tylor.png);
+	background: url(../images/Tylor.png);
 	background-size: cover;
 }
