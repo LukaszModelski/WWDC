@@ -72,7 +72,7 @@
 	height: 0;
 	width: 0;
 	position: absolute;
-	border-right-color: #fff;
+	border-right-color: rgb(252, 252, 250);
 	border-width: 32px;
 	margin-top: -32px;
 }
@@ -85,7 +85,7 @@
 	height: 0;
 	width: 0;
 	position: absolute;
-	border-left-color: #fff;
+	border-left-color: rgb(252, 252, 250);
 	border-width: 32px;
 	margin-top: -32px;
 }

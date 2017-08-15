@@ -27,25 +27,39 @@
 /* check us */
 
 @media only screen and (max-width: 525px) {
-
-	.checkUs {
-		height: 400px;
+	
+	.dropDownMenuContainer ul.dropDownMenu {
+		display: block;
+		position: relative;
+		z-index: 9999;
 	}
 
-	.checkUs .designers {
+	.dropDownMenuContainer ul.dropDownMenu li {
+		text-align: center;
+	}
+
+	.dropDownMenuContainer {
+		height: 250px;
+	}
+
+	.checkUsContent {
+		height: 320px;
+	}
+
+	.checkUsContent .designers {
 	    font-size: 35px;
 	    letter-spacing: 6px;
 	}
 
-	.checkUs .hrBox hr {
+	.checkUsContent .hrBox hr {
     	width: 20%;
 	}
 
-	.checkUs > div:first-child {
+	.checkUsContent > div:first-child {
 	    margin: 0 20px 50px 20px;
 	}
 
-	.checkUs a {
+	.checkUsContent a {
 		margin: 30px auto 0 auto;
 	}	
 }
